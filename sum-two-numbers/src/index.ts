@@ -14,7 +14,6 @@ export function sumTwoNumbers(
     }, 0);
 
     sum += overflowDigit;
-
     overflowDigit = 0;
 
     if (sum > 9) {
